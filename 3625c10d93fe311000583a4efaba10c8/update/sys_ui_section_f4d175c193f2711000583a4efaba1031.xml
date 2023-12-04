@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="f4d175c193f2711000583a4efaba1031" sys_domain="global" table="x_1122522_pfc_employee_info" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-29 13:27:41</sys_created_on>
+            <sys_id>22f850f993b2351000583a4efaba10cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="Default view">f4d175c193f2711000583a4efaba1031</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-29 13:27:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-29 13:27:41</sys_created_on>
+            <sys_id>a2f850f993b2351000583a4efaba10cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="Default view">f4d175c193f2711000583a4efaba1031</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-29 13:27:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone_number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-29 13:27:41</sys_created_on>
+            <sys_id>26f850f993b2351000583a4efaba10cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="Default view">f4d175c193f2711000583a4efaba1031</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-29 13:27:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hr_manager</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-29 13:27:41</sys_created_on>
+            <sys_id>a6f850f993b2351000583a4efaba10cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="Default view">f4d175c193f2711000583a4efaba1031</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-29 13:27:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>birthday</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-29 13:27:41</sys_created_on>
+            <sys_id>2af850f993b2351000583a4efaba10cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="Default view">f4d175c193f2711000583a4efaba1031</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-29 13:27:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>education</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-29 13:27:41</sys_created_on>
+            <sys_id>aaf850f993b2351000583a4efaba10cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="Default view">f4d175c193f2711000583a4efaba1031</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-29 13:27:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_vacationing</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-29 17:16:27</sys_created_on>
+            <sys_id>695d4d3593b6351000583a4efaba10a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1122522_pfc_employee_info" sys_domain="global" view="Default view">f4d175c193f2711000583a4efaba1031</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-29 17:16:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1122522_pfc_employee_info</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-27 12:00:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4d175c193f2711000583a4efaba1031</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1122522_pfc_employee_info</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+            <sys_update_name>sys_ui_section_f4d175c193f2711000583a4efaba1031</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-27 12:00:26</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

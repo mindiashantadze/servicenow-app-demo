@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Time Off</name>
+        <order>100</order>
+        <roles>x_1122522_pfc.time_off_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 14:23:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>83929ac59376711000583a4efaba1047</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time Off</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name>sys_app_application_83929ac59376711000583a4efaba1047</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 14:23:41</sys_updated_on>
+        <title>Time Off</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</application>
+        <file_path/>
+        <instance_id>0c28d340db02bd14caf99027c59619ac</instance_id>
+        <instance_name>dev189231</instance_name>
+        <name>sys_app_application_83929ac59376711000583a4efaba1047</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Time Off</name><order>100</order><roles>x_1122522_pfc.time_off_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-27 14:23:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>83929ac59376711000583a4efaba1047</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Time Off</sys_name><sys_overrides/><sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package><sys_policy/><sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope><sys_update_name>sys_app_application_83929ac59376711000583a4efaba1047</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-27 14:23:41</sys_updated_on><title>Time Off</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1468086377</payload_hash>
+        <record_name>Time Off</record_name>
+        <reverted_from/>
+        <source>b625c10d93fe311000583a4efaba10cc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 14:23:41</sys_created_on>
+        <sys_id>0f929ac59376711000583a4efaba1049</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c112a1a6a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 14:23:41</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>43929ac52376711067adc4f512a71249</update_guid>
+        <update_guid_history>43929ac52376711067adc4f512a71249:-1468086377</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Time Off">03edf62d93faf11000583a4efaba1046</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 06:49:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>53eaa57224e24ae495d9d12e64fdca89</sys_id>
+        <sys_metadata>83929ac59376711000583a4efaba1047</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time Off</sys_name>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_scope_delete display_value="">4e851d4930924010a8f22a919f711900</sys_scope_delete>
+        <sys_update_name>sys_app_application_83929ac59376711000583a4efaba1047</sys_update_name>
+        <sys_update_version display_value="sys_app_application_83929ac59376711000583a4efaba1047">0f929ac59376711000583a4efaba1049</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 06:49:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

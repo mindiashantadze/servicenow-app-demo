@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <can_iterate>false</can_iterate>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <max_drift/>
+        <name>Add PTO days to employees</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>31</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2023-11-30 11:18:22</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>monthly</run_type>
+        <script><![CDATA[var employeeGr = new GlideRecord("x_1122522_pfc_employee_info");
+employeeGr.addQuery("available_pto_days", "<", 24);
+employeeGr.query();
+gs.info("Available records count: " + employeeGr.getRowCount());
+
+while (employeeGr.next()) {
+	gs.info("Available PTO days " + employeeGr.getValue("available_pto_days"));
+	var availablePtoDays = employeeGr.getValue("available_pto_days");
+	employeeGr.setValue("available_pto_days", Number(availablePtoDays) + 2);
+	gs.info("Updated PTO days " + employeeGr.getValue("available_pto_days"));
+	employeeGr.update();
+}]]></script>
+        <source_filter/>
+        <source_table>cmdb_ci_appl_dot_net</source_table>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 11:34:30</sys_created_on>
+        <sys_id>c6f40dca93f6751000583a4efaba10f7</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Add PTO days to employees</sys_name>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name>sysauto_script_c6f40dca93f6751000583a4efaba10f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 11:59:23</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

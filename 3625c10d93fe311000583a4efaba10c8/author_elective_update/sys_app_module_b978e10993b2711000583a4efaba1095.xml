@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Employee Info">dc8a19099372711000583a4efaba1018</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>125s</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1122522_pfc_125</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1122522_pfc.employee_info_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 11:19:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b978e10993b2711000583a4efaba1095</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>125s</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name>sys_app_module_b978e10993b2711000583a4efaba1095</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 11:19:32</sys_updated_on>
+        <timeline_page/>
+        <title>125s</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</application>
+        <file_path/>
+        <instance_id>0c28d340db02bd14caf99027c59619ac</instance_id>
+        <instance_name>dev189231</instance_name>
+        <name>sys_app_module_b978e10993b2711000583a4efaba1095</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Employee Info">dc8a19099372711000583a4efaba1018</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>125s</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1122522_pfc_125</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_1122522_pfc.employee_info_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-27 11:19:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b978e10993b2711000583a4efaba1095</sys_id><sys_mod_count>0</sys_mod_count><sys_name>125s</sys_name><sys_overrides/><sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package><sys_policy/><sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope><sys_update_name>sys_app_module_b978e10993b2711000583a4efaba1095</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-27 11:19:32</sys_updated_on><timeline_page/><title>125s</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1029431435</payload_hash>
+        <record_name>125s</record_name>
+        <reverted_from/>
+        <source>b625c10d93fe311000583a4efaba10cc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 11:19:32</sys_created_on>
+        <sys_id>3178e10993b2711000583a4efaba1098</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c108184420000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 11:19:32</sys_updated_on>
+        <type>Module</type>
+        <update_guid>7578e10929b27110957c7707358ee197</update_guid>
+        <update_guid_history>7578e10929b27110957c7707358ee197:-1029431435</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="125s">2e49a54993b2711000583a4efaba10c2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 11:23:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>3a36ea3571cb40faa41928ef8a7d44d9</sys_id>
+        <sys_metadata>b978e10993b2711000583a4efaba1095</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>125s</sys_name>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_scope_delete display_value="">4e851d4930924010a8f22a919f711900</sys_scope_delete>
+        <sys_update_name>sys_app_module_b978e10993b2711000583a4efaba1095</sys_update_name>
+        <sys_update_version display_value="sys_app_module_b978e10993b2711000583a4efaba1095">3178e10993b2711000583a4efaba1098</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 11:23:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

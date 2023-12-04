@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_1122522_pfc_location</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1122522_pfc_location</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:08:18</sys_created_on>
+        <sys_id>da28d9059372711000583a4efaba101f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1122522_pfc_location</sys_name>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name>sys_security_acl_da28d9059372711000583a4efaba101f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:08:18</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</application>
+        <file_path/>
+        <instance_id>0c28d340db02bd14caf99027c59619ac</instance_id>
+        <instance_name>dev189231</instance_name>
+        <name>sys_security_acl_da28d9059372711000583a4efaba101f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_1122522_pfc_location</description><local_or_existing>Local</local_or_existing><name>x_1122522_pfc_location</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-27 10:08:18</sys_created_on><sys_id>da28d9059372711000583a4efaba101f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1122522_pfc_location</sys_name><sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package><sys_policy/><sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope><sys_update_name>sys_security_acl_da28d9059372711000583a4efaba101f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-27 10:08:18</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-816246591</payload_hash>
+        <record_name>x_1122522_pfc_location</record_name>
+        <reverted_from/>
+        <source>b625c10d93fe311000583a4efaba10cc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:08:18</sys_created_on>
+        <sys_id>1228d9059372711000583a4efaba1022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c10404bac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:08:18</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>5628d905c9727110b49698209a03a621</update_guid>
+        <update_guid_history>5628d905c9727110b49698209a03a621:-816246591</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 11:23:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>2b35756caa5d480884dda69fe9eb0c79</sys_id>
+        <sys_metadata>da28d9059372711000583a4efaba101f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1122522_pfc_location</sys_name>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_parent display_value="">da28d9059372711000583a4efaba1030</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_scope_delete display_value="">4e851d4930924010a8f22a919f711900</sys_scope_delete>
+        <sys_update_name>sys_security_acl_da28d9059372711000583a4efaba101f</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_da28d9059372711000583a4efaba101f">1228d9059372711000583a4efaba1022</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 11:23:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6ce15e859376711000583a4efaba1029" label="Time Off" max_length="40" name="x_1122522_pfc_time_off" type="collection">
+        <element choice="3" label="Approved" max_length="40" name="approved" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="100" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="200" value="rejected"/>
+                <element inactive_on_update="false" label="Not Yet Requested" sequence="300" value="not_yet_requested"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="400" value="cancelled"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="125" name="description" type="string"/>
+        <element label="From" mandatory="true" max_length="40" name="from" type="glide_date"/>
+        <element label="Requested By" max_length="40" name="requested_by" reference="sys_user" type="reference"/>
+        <element label="To" mandatory="true" max_length="40" name="to" type="glide_date"/>
+        <element choice="3" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AOE (At Own Expense)" sequence="100" value="aoe"/>
+                <element inactive_on_update="false" label="PTO (Paid Time Off)" sequence="200" value="pto"/>
+                <element inactive_on_update="false" label="Sick Leave" sequence="300" value="sick_leave"/>
+            </choice>
+        </element>
+    </element>
+</database>

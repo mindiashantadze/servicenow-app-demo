@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="PeopleForce Clone">ca670589937e311000583a4efaba10d7</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>Time Offs</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1122522_pfc_time_off</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1122522_pfc.time_off_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 14:23:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>07929ac59376711000583a4efaba104a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Time Offs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name>sys_app_module_07929ac59376711000583a4efaba104a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 08:01:23</sys_updated_on>
+        <timeline_page/>
+        <title>Time Offs</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</application>
+        <file_path/>
+        <instance_id>0c28d340db02bd14caf99027c59619ac</instance_id>
+        <instance_name>dev189231</instance_name>
+        <name>sys_app_module_07929ac59376711000583a4efaba104a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="PeopleForce Clone">ca670589937e311000583a4efaba10d7</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>Time Offs</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1122522_pfc_time_off</name><order>200</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_1122522_pfc.time_off_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-27 14:23:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>07929ac59376711000583a4efaba104a</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Time Offs</sys_name><sys_overrides/><sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package><sys_policy/><sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope><sys_update_name>sys_app_module_07929ac59376711000583a4efaba104a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-29 08:01:23</sys_updated_on><timeline_page/><title>Time Offs</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>841379141</payload_hash>
+        <record_name>Time Offs</record_name>
+        <reverted_from/>
+        <source>b625c10d93fe311000583a4efaba10cc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 08:01:23</sys_created_on>
+        <sys_id>7e4ec7a1937ef11000583a4efaba10cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c1a18d34e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 08:01:23</sys_updated_on>
+        <type>Module</type>
+        <update_guid>764ec7a1377ef110de1bf593e9aaf3cd</update_guid>
+        <update_guid_history>764ec7a1377ef110de1bf593e9aaf3cd:841379141,b42ec761c37ef1109d2c5b9271d27f34:-584405692,442ef6edcffaf1100db06aa161a7d5df:-190054819,93ddba2dfbfaf110b2cfa8c370235414:-481028830,df929ac5dc767110089816f75f34af4b:-1918703779</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Time Offs">376fc725937ef11000583a4efaba1064</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 08:06:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0d8f98cc20d84696812622878639c8c4</sys_id>
+        <sys_metadata>07929ac59376711000583a4efaba104a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time Offs</sys_name>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_scope_delete display_value="">4e851d4930924010a8f22a919f711900</sys_scope_delete>
+        <sys_update_name>sys_app_module_07929ac59376711000583a4efaba104a</sys_update_name>
+        <sys_update_version display_value="sys_app_module_07929ac59376711000583a4efaba104a">7e4ec7a1937ef11000583a4efaba10cd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 08:06:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

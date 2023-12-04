@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="095a95059372711000583a4efaba1027" label="Employee Info" max_length="40" name="x_1122522_pfc_employee_info" type="collection">
+        <element default="0" label="Available PTO Days" max_length="40" name="available_pto_days" type="integer"/>
+        <element label="Birthday" max_length="40" name="birthday" type="glide_date"/>
+        <element label="Education" max_length="125" name="education" type="string"/>
+        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element label="HR Manager" max_length="32" name="hr_manager" reference="sys_user" type="reference"/>
+        <element label="Is Vacationing" max_length="40" name="is_vacationing" type="boolean"/>
+        <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
+        <element label="Phone Number" max_length="50" name="phone_number" type="string"/>
+        <element default="0" label="Used AOE Days" max_length="40" name="used_aoe_days" read_only="true" type="integer"/>
+        <element default="0" label="Used Sick Leave Days" max_length="40" name="used_sick_leave_days" read_only="true" type="integer"/>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+        <index name="index2">
+            <element name="hr_manager"/>
+        </index>
+        <index name="index3">
+            <element name="manager"/>
+        </index>
+    </element>
+</database>

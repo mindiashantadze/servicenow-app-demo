@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains/>
+        <role display_value="x_1122522_pfc.c_level" name="x_1122522_pfc.c_level">dff605419332711000583a4efaba107a</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 10:58:07</sys_created_on>
+        <sys_id>7340854693f6751000583a4efaba1024</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1122522_pfc.c_level</sys_name>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name>sys_user_role_contains_7340854693f6751000583a4efaba1024</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 10:58:07</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order/>
+        <roles>x_1122522_pfc.admin,x_1122522_pfc.user,x_1122522_pfc.c_level,x_1122522_pfc.ceo,x_1122522_pfc.hr_manager,x_1122522_pfc.regional_partner,x_1122522_pfc.resource_manager,user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 08:55:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ca670589937e311000583a4efaba10d7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>PeopleForce Clone</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name>sys_app_application_ca670589937e311000583a4efaba10d7</sys_update_name>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2023-11-29 10:28:14</sys_updated_on>
+        <title>PeopleForce Clone</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

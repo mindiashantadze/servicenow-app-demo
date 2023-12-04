@@ -1,0 +1,1489 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>get_currently_logged_in_user</internal_name>
+        <label_cache>[{"name":"{{step[d2a00e90-e2e3-4943-898a-94f6511abdb3].current_user}}","label":"step➛Get Current User ID➛Current User","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"0ae9cf75-e435-4dec-9dba-559609123ee6"}}]</label_cache>
+        <master_snapshot>73dabf299332351000583a4efaba100d</master_snapshot>
+        <name>Get Currently Logged In User</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:05:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4c78fbe19332351000583a4efaba1019</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Get Currently Logged In User</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_4c78fbe19332351000583a4efaba1019</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:31:33</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=4c78fbe19332351000583a4efaba1019"/>
+    <sys_variable_value action="DELETE" query="document_key=4c78fbe19332351000583a4efaba1019"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>4c78fbe19332351000583a4efaba1019</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:06</sys_created_on>
+        <sys_id>7ada7f299332351000583a4efaba10b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:06</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">bada7f299332351000583a4efaba10a6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>4c78fbe19332351000583a4efaba1019</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:06</sys_created_on>
+        <sys_id>b6da7f299332351000583a4efaba10b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:06</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">7ada7f299332351000583a4efaba10aa</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=4c78fbe19332351000583a4efaba1019"/>
+    <sys_element_mapping action="DELETE">
+        <field>current_user</field>
+        <id>4c78fbe19332351000583a4efaba1019</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:06</sys_created_on>
+        <sys_id>36da7f299332351000583a4efaba10b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:06</sys_updated_on>
+        <table>var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019</table>
+        <value>{{step[d2a00e90-e2e3-4943-898a-94f6511abdb3].current_user}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>__action_status__</field>
+        <id>4c78fbe19332351000583a4efaba1019</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:06</sys_created_on>
+        <sys_id>72da7f299332351000583a4efaba10b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:06</sys_updated_on>
+        <table>var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>__dont_treat_as_error__</field>
+        <id>4c78fbe19332351000583a4efaba1019</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:06</sys_created_on>
+        <sys_id>beda7f299332351000583a4efaba10b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:06</sys_updated_on>
+        <table>var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="DELETE" query="action=4c78fbe19332351000583a4efaba1019^sys_idNOT IN18ccb3e99332351000583a4efaba10ab,d96e376d9332351000583a4efaba10ae,ff397ba59332351000583a4efaba10e5"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="Get Currently Logged In User">4c78fbe19332351000583a4efaba1019</action>
+        <cid>06faa9e9-042f-4800-9189-fa33d158774b</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up User Record</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:24:23</sys_created_on>
+        <sys_id>18ccb3e99332351000583a4efaba10ab</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:31:33</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=18ccb3e99332351000583a4efaba10ab"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>18ccb3e99332351000583a4efaba10ab</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:24:24</sys_created_on>
+        <sys_id>dcccb3e99332351000583a4efaba10b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:24:24</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=18ccb3e99332351000583a4efaba10ab"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>18ccb3e99332351000583a4efaba10ab</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:24:24</sys_created_on>
+        <sys_id>5cccb3e99332351000583a4efaba10b2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:30:28</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>user_name={{step[d2a00e90-e2e3-4943-898a-94f6511abdb3].current_user}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>lookup_table_name</field>
+        <id>18ccb3e99332351000583a4efaba10ab</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:24:24</sys_created_on>
+        <sys_id>98ccb3e99332351000583a4efaba10b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:24:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="DELETE" query="documentkey=18ccb3e99332351000583a4efaba10ab"/>
+    <sys_hub_step_ext_input action="DELETE" query="model=18ccb3e99332351000583a4efaba10ab"/>
+    <sys_hub_step_ext_output action="DELETE" query="model=18ccb3e99332351000583a4efaba10ab"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=18ccb3e99332351000583a4efaba10ab"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_step_ext_output_18ccb3e99332351000583a4efaba10ab"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="Get Currently Logged In User">4c78fbe19332351000583a4efaba1019</action>
+        <cid>69da85af-6beb-4257-a875-d4fe6ce4f3fd</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Log step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Log">a03fea9bc712220061f553c6f09763b1</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:31:33</sys_created_on>
+        <sys_id>d96e376d9332351000583a4efaba10ae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:31:33</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=d96e376d9332351000583a4efaba10ae"/>
+    <sys_element_mapping action="DELETE" query="id=d96e376d9332351000583a4efaba10ae"/>
+    <sys_element_mapping action="DELETE">
+        <field>log_message</field>
+        <id>d96e376d9332351000583a4efaba10ae</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:31:33</sys_created_on>
+        <sys_id>596e376d9332351000583a4efaba10b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:31:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
+        <value>{{step[d2a00e90-e2e3-4943-898a-94f6511abdb3].current_user}}</value>
+    </sys_element_mapping>
+    <sys_translated_text action="DELETE" query="documentkey=d96e376d9332351000583a4efaba10ae"/>
+    <sys_hub_step_ext_input action="DELETE" query="model=d96e376d9332351000583a4efaba10ae"/>
+    <sys_hub_step_ext_output action="DELETE" query="model=d96e376d9332351000583a4efaba10ae"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=d96e376d9332351000583a4efaba10ae"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_step_ext_output_d96e376d9332351000583a4efaba10ae"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="Get Currently Logged In User">4c78fbe19332351000583a4efaba1019</action>
+        <cid>d2a00e90-e2e3-4943-898a-94f6511abdb3</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Get Current User ID</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:09:03</sys_created_on>
+        <sys_id>ff397ba59332351000583a4efaba10e5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:26:37</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=ff397ba59332351000583a4efaba10e5"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff397ba59332351000583a4efaba10e5</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:09:04</sys_created_on>
+        <sys_id>3f397ba59332351000583a4efaba10f5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:26:37</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+    outputs.current_user = gs.getUserID();&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ff397ba59332351000583a4efaba10e5</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:09:04</sys_created_on>
+        <sys_id>7b397ba59332351000583a4efaba10f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:09:04</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_step_ext_output_ff397ba59332351000583a4efaba10e5^id=ff397ba59332351000583a4efaba10e5"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=ff397ba59332351000583a4efaba10e5"/>
+    <sys_translated_text action="DELETE" query="documentkey=ff397ba59332351000583a4efaba10e5"/>
+    <sys_hub_step_ext_input action="DELETE" query="model=ff397ba59332351000583a4efaba10e5"/>
+    <sys_hub_step_ext_output action="DELETE" query="model=ff397ba59332351000583a4efaba10e5^sys_idNOT IN73397ba59332351000583a4efaba10ee"/>
+    <sys_hub_step_ext_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0ae9cf75-e435-4dec-9dba-559609123ee6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current_user</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Current User</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get Current User ID">ff397ba59332351000583a4efaba10e5</model>
+        <model_id>ff397ba59332351000583a4efaba10e5</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ff397ba59332351000583a4efaba10e5</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:09:04</sys_created_on>
+        <sys_id>73397ba59332351000583a4efaba10ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:09:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="DELETE" query="instance=ff397ba59332351000583a4efaba10e5"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_step_ext_output_ff397ba59332351000583a4efaba10e5^sys_idNOT INf7397ba59332351000583a4efaba10f1"/>
+    <sys_documentation action="DELETE">
+        <element>current_user</element>
+        <help/>
+        <hint/>
+        <label>Current User</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_ff397ba59332351000583a4efaba10e5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:09:04</sys_created_on>
+        <sys_id>f7397ba59332351000583a4efaba10f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:09:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="DELETE" query="model=4c78fbe19332351000583a4efaba1019"/>
+    <sys_hub_action_output action="DELETE" query="model=4c78fbe19332351000583a4efaba1019^sys_idNOT IN3b397ba59332351000583a4efaba10f8,7ada7f299332351000583a4efaba10aa,bada7f299332351000583a4efaba10a6"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=f09f2a89-e244-4842-bc4d-3ac635df9132</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current_user</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Current User</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get Currently Logged In User">4c78fbe19332351000583a4efaba1019</model>
+        <model_id>4c78fbe19332351000583a4efaba1019</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:09:04</sys_created_on>
+        <sys_id>3b397ba59332351000583a4efaba10f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=3b397ba59332351000583a4efaba10f8"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=3b397ba59332351000583a4efaba10f8^sys_idNOT INbb39bba59332351000583a4efaba100a"/>
+    <sys_hub_input_scripts action="DELETE">
+        <active>false</active>
+        <input_name>current_user</input_name>
+        <instance>3b397ba59332351000583a4efaba10f8</instance>
+        <referenced_table>sys_hub_action_output</referenced_table>
+        <script>{"current_user":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:09:04</sys_created_on>
+        <sys_id>bb39bba59332351000583a4efaba100a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:09:04</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f14952dd-2a28-4c0e-8cee-e1f3837fa6b8,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Currently Logged In User">4c78fbe19332351000583a4efaba1019</model>
+        <model_id>4c78fbe19332351000583a4efaba1019</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:05</sys_created_on>
+        <sys_id>7ada7f299332351000583a4efaba10aa</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:31:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=7ada7f299332351000583a4efaba10aa"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=7ada7f299332351000583a4efaba10aa"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=359aebfc-42ff-4024-9462-28e63cc108f3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Currently Logged In User">4c78fbe19332351000583a4efaba1019</model>
+        <model_id>4c78fbe19332351000583a4efaba1019</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:05</sys_created_on>
+        <sys_id>bada7f299332351000583a4efaba10a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=bada7f299332351000583a4efaba10a6"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=bada7f299332351000583a4efaba10a6"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=4c78fbe19332351000583a4efaba1019"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=4c78fbe19332351000583a4efaba1019^sys_idNOT IN3339bba59332351000583a4efaba100c"/>
+    <sys_hub_action_status_metadata action="DELETE">
+        <action_type_id display_value="Get Currently Logged In User">4c78fbe19332351000583a4efaba1019</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:09:04</sys_created_on>
+        <sys_id>3339bba59332351000583a4efaba100c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:09:04</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="DELETE" query="action_status_metadata_id=3339bba59332351000583a4efaba100c"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_4c78fbe19332351000583a4efaba1019"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_4c78fbe19332351000583a4efaba1019"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019^sys_idNOT INb2da7f299332351000583a4efaba10af,bada7f299332351000583a4efaba10a9,f3397ba59332351000583a4efaba10fc"/>
+    <sys_documentation action="DELETE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:06</sys_created_on>
+        <sys_id>b2da7f299332351000583a4efaba10af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:05</sys_created_on>
+        <sys_id>bada7f299332351000583a4efaba10a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>current_user</element>
+        <help/>
+        <hint/>
+        <label>Current User</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:09:04</sys_created_on>
+        <sys_id>f3397ba59332351000583a4efaba10fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:09:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019"/>
+    <sys_hub_action_plan action="DELETE" query="action_id=4c78fbe19332351000583a4efaba1019^sys_idNOT IN8ceabf299332351000583a4efaba1086"/>
+    <sys_hub_action_plan action="DELETE">
+        <action_id display_value="Get Currently Logged In User">4c78fbe19332351000583a4efaba1019</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"8ceabf299332351000583a4efaba1086","name":"plan","plan_signature":null}}</plan>
+        <snapshot>7fdabf299332351000583a4efaba103d</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8ceabf299332351000583a4efaba1086</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:11</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>get_currently_logged_in_user</internal_name>
+        <label_cache>[{"name":"{{step[d2a00e90-e2e3-4943-898a-94f6511abdb3].current_user}}","label":"step➛Script step➛Current User","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"0ae9cf75-e435-4dec-9dba-559609123ee6"}}]</label_cache>
+        <master>true</master>
+        <name>Get Currently Logged In User</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get Currently Logged In User">4c78fbe19332351000583a4efaba1019</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>73dabf299332351000583a4efaba100d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:09</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=73dabf299332351000583a4efaba100d"/>
+    <sys_variable_value action="DELETE" query="document_key=73dabf299332351000583a4efaba100d"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>73dabf299332351000583a4efaba100d</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:10</sys_created_on>
+        <sys_id>3bdabf299332351000583a4efaba103b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:10</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">7fdabf299332351000583a4efaba1022</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>73dabf299332351000583a4efaba100d</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:10</sys_created_on>
+        <sys_id>77dabf299332351000583a4efaba103b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:10</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">fbdabf299332351000583a4efaba1026</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=73dabf299332351000583a4efaba100d"/>
+    <sys_element_mapping action="DELETE">
+        <field>current_user</field>
+        <id>73dabf299332351000583a4efaba100d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:10</sys_created_on>
+        <sys_id>f3dabf299332351000583a4efaba103b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:10</sys_updated_on>
+        <table>var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d</table>
+        <value>{{step[d2a00e90-e2e3-4943-898a-94f6511abdb3].current_user}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>__action_status__</field>
+        <id>73dabf299332351000583a4efaba100d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:10</sys_created_on>
+        <sys_id>7bdabf299332351000583a4efaba102e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:10</sys_updated_on>
+        <table>var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>__dont_treat_as_error__</field>
+        <id>73dabf299332351000583a4efaba100d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:10</sys_created_on>
+        <sys_id>b7dabf299332351000583a4efaba102e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:10</sys_updated_on>
+        <table>var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="DELETE" query="action=73dabf299332351000583a4efaba100d^sys_idNOT INb7dabf299332351000583a4efaba1011"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="Get Currently Logged In User">73dabf299332351000583a4efaba100d</action>
+        <cid>d2a00e90-e2e3-4943-898a-94f6511abdb3</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:09</sys_created_on>
+        <sys_id>b7dabf299332351000583a4efaba1011</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:09</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=b7dabf299332351000583a4efaba1011"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b7dabf299332351000583a4efaba1011</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:09</sys_created_on>
+        <sys_id>33dabf299332351000583a4efaba101c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:09</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+    outputs.current_user = gs.getUserID();&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b7dabf299332351000583a4efaba1011</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:09</sys_created_on>
+        <sys_id>7fdabf299332351000583a4efaba101b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:09</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_step_ext_output_b7dabf299332351000583a4efaba1011^id=b7dabf299332351000583a4efaba1011"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=b7dabf299332351000583a4efaba1011"/>
+    <sys_translated_text action="DELETE" query="documentkey=b7dabf299332351000583a4efaba1011"/>
+    <sys_hub_step_ext_input action="DELETE" query="model=b7dabf299332351000583a4efaba1011"/>
+    <sys_hub_step_ext_output action="DELETE" query="model=b7dabf299332351000583a4efaba1011^sys_idNOT IN37dabf299332351000583a4efaba1015"/>
+    <sys_hub_step_ext_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0ae9cf75-e435-4dec-9dba-559609123ee6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current_user</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Current User</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">b7dabf299332351000583a4efaba1011</model>
+        <model_id>b7dabf299332351000583a4efaba1011</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_b7dabf299332351000583a4efaba1011</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:09</sys_created_on>
+        <sys_id>37dabf299332351000583a4efaba1015</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="DELETE" query="instance=b7dabf299332351000583a4efaba1011"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_step_ext_output_b7dabf299332351000583a4efaba1011^sys_idNOT IN37dabf299332351000583a4efaba1018"/>
+    <sys_documentation action="DELETE">
+        <element>current_user</element>
+        <help/>
+        <hint/>
+        <label>Current User</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_b7dabf299332351000583a4efaba1011</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:09</sys_created_on>
+        <sys_id>37dabf299332351000583a4efaba1018</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="DELETE" query="model=73dabf299332351000583a4efaba100d"/>
+    <sys_hub_action_output action="DELETE" query="model=73dabf299332351000583a4efaba100d^sys_idNOT IN3bdabf299332351000583a4efaba101e,7fdabf299332351000583a4efaba1022,fbdabf299332351000583a4efaba1026"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=f09f2a89-e244-4842-bc4d-3ac635df9132</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current_user</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Current User</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get Currently Logged In User">73dabf299332351000583a4efaba100d</model>
+        <model_id>73dabf299332351000583a4efaba100d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:09</sys_created_on>
+        <sys_id>3bdabf299332351000583a4efaba101e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=3bdabf299332351000583a4efaba101e"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=3bdabf299332351000583a4efaba101e^sys_idNOT IN3bdabf299332351000583a4efaba102d"/>
+    <sys_hub_input_scripts action="DELETE">
+        <active>false</active>
+        <input_name>current_user</input_name>
+        <instance>3bdabf299332351000583a4efaba101e</instance>
+        <referenced_table>sys_hub_action_output</referenced_table>
+        <script>{"current_user":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:10</sys_created_on>
+        <sys_id>3bdabf299332351000583a4efaba102d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:10</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=359aebfc-42ff-4024-9462-28e63cc108f3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Currently Logged In User">73dabf299332351000583a4efaba100d</model>
+        <model_id>73dabf299332351000583a4efaba100d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:10</sys_created_on>
+        <sys_id>7fdabf299332351000583a4efaba1022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=7fdabf299332351000583a4efaba1022"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=7fdabf299332351000583a4efaba1022"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f14952dd-2a28-4c0e-8cee-e1f3837fa6b8,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Currently Logged In User">73dabf299332351000583a4efaba100d</model>
+        <model_id>73dabf299332351000583a4efaba100d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:10</sys_created_on>
+        <sys_id>fbdabf299332351000583a4efaba1026</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=fbdabf299332351000583a4efaba1026"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=fbdabf299332351000583a4efaba1026"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=73dabf299332351000583a4efaba100d"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=73dabf299332351000583a4efaba100d^sys_idNOT INbbdabf299332351000583a4efaba103d"/>
+    <sys_hub_action_status_metadata action="DELETE">
+        <action_type_id display_value="Get Currently Logged In User">73dabf299332351000583a4efaba100d</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:10</sys_created_on>
+        <sys_id>bbdabf299332351000583a4efaba103d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:10</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="DELETE" query="action_status_metadata_id=bbdabf299332351000583a4efaba103d"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_73dabf299332351000583a4efaba100d"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_73dabf299332351000583a4efaba100d"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d^sys_idNOT IN37dabf299332351000583a4efaba102b,3fdabf299332351000583a4efaba1025,bfdabf299332351000583a4efaba1021"/>
+    <sys_documentation action="DELETE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:10</sys_created_on>
+        <sys_id>37dabf299332351000583a4efaba102b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:10</sys_created_on>
+        <sys_id>3fdabf299332351000583a4efaba1025</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>current_user</element>
+        <help/>
+        <hint/>
+        <label>Current User</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:16:10</sys_created_on>
+        <sys_id>bfdabf299332351000583a4efaba1021</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:16:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d"/>
+    <sys_hub_action_type_definition action="DELETE">
+        <sys_id>4c78fbe19332351000583a4efaba1019</sys_id>
+        <latest_snapshot>73dabf299332351000583a4efaba100d</latest_snapshot>
+        <compiler_build>glide-vancouver-07-06-2023__patch2-hotfix1-10-04-2023_10-06-2023_1235.zip</compiler_build>
+    </sys_hub_action_type_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</application>
+        <file_path/>
+        <instance_id>0c28d340db02bd14caf99027c59619ac</instance_id>
+        <instance_name>dev189231</instance_name>
+        <name>sys_hub_action_type_definition_4c78fbe19332351000583a4efaba1019</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_action_type_definition"&gt;&lt;sys_hub_action_type_definition action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;action_status/&gt;&lt;action_template/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;ih_action&gt;false&lt;/ih_action&gt;&lt;internal_name&gt;get_currently_logged_in_user&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"{{step[d2a00e90-e2e3-4943-898a-94f6511abdb3].current_user}}","label":"step➛Get Current User ID➛Current User","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"0ae9cf75-e435-4dec-9dba-559609123ee6"}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;73dabf299332351000583a4efaba100d&lt;/master_snapshot&gt;&lt;name&gt;Get Currently Logged In User&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;state&gt;draft&lt;/state&gt;&lt;sys_class_name&gt;sys_hub_action_type_definition&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:05:32&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4c78fbe19332351000583a4efaba1019&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name&gt;Get Currently Logged In User&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="PeopleForce Clone" source="x_1122522_pfc"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_action_type_definition_4c78fbe19332351000583a4efaba1019&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:31:33&lt;/sys_updated_on&gt;&lt;system_level&gt;false&lt;/system_level&gt;&lt;type/&gt;&lt;/sys_hub_action_type_definition&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4c78fbe19332351000583a4efaba1019"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=4c78fbe19332351000583a4efaba1019"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_type_definition&lt;/document&gt;&lt;document_key&gt;4c78fbe19332351000583a4efaba1019&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:06&lt;/sys_created_on&gt;&lt;sys_id&gt;7ada7f299332351000583a4efaba10b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:06&lt;/sys_updated_on&gt;&lt;value&gt;{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}&lt;/value&gt;&lt;variable display_value="Action Status"&gt;bada7f299332351000583a4efaba10a6&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_type_definition&lt;/document&gt;&lt;document_key&gt;4c78fbe19332351000583a4efaba1019&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:06&lt;/sys_created_on&gt;&lt;sys_id&gt;b6da7f299332351000583a4efaba10b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:06&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value="Don't Treat as Error"&gt;7ada7f299332351000583a4efaba10aa&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=4c78fbe19332351000583a4efaba1019"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;current_user&lt;/field&gt;&lt;id&gt;4c78fbe19332351000583a4efaba1019&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:06&lt;/sys_created_on&gt;&lt;sys_id&gt;36da7f299332351000583a4efaba10b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:06&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019&lt;/table&gt;&lt;value&gt;{{step[d2a00e90-e2e3-4943-898a-94f6511abdb3].current_user}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;__action_status__&lt;/field&gt;&lt;id&gt;4c78fbe19332351000583a4efaba1019&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:06&lt;/sys_created_on&gt;&lt;sys_id&gt;72da7f299332351000583a4efaba10b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:06&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;__dont_treat_as_error__&lt;/field&gt;&lt;id&gt;4c78fbe19332351000583a4efaba1019&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:06&lt;/sys_created_on&gt;&lt;sys_id&gt;beda7f299332351000583a4efaba10b1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:06&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_step_instance action="delete_multiple" query="action=4c78fbe19332351000583a4efaba1019^sys_idNOT IN18ccb3e99332351000583a4efaba10ab,d96e376d9332351000583a4efaba10ae,ff397ba59332351000583a4efaba10e5"/&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="Get Currently Logged In User"&gt;4c78fbe19332351000583a4efaba1019&lt;/action&gt;&lt;cid&gt;06faa9e9-042f-4800-9189-fa33d158774b&lt;/cid&gt;&lt;error_handling_type&gt;1&lt;/error_handling_type&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;label&gt;Look Up User Record&lt;/label&gt;&lt;order&gt;3&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="Look Up Record"&gt;dc9c26043b23220057a4a2e334efc447&lt;/step_type&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:24:23&lt;/sys_created_on&gt;&lt;sys_id&gt;18ccb3e99332351000583a4efaba10ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:31:33&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=18ccb3e99332351000583a4efaba10ab"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;18ccb3e99332351000583a4efaba10ab&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:24:24&lt;/sys_created_on&gt;&lt;sys_id&gt;dcccb3e99332351000583a4efaba10b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:24:24&lt;/sys_updated_on&gt;&lt;value&gt;sys_user&lt;/value&gt;&lt;variable display_value="Table"&gt;f9cc66043b23220057a4a2e334efc42f&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=18ccb3e99332351000583a4efaba10ab"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;18ccb3e99332351000583a4efaba10ab&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:24:24&lt;/sys_created_on&gt;&lt;sys_id&gt;5cccb3e99332351000583a4efaba10b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:30:28&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447&lt;/table&gt;&lt;value&gt;user_name={{step[d2a00e90-e2e3-4943-898a-94f6511abdb3].current_user}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;lookup_table_name&lt;/field&gt;&lt;id&gt;18ccb3e99332351000583a4efaba10ab&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:24:24&lt;/sys_created_on&gt;&lt;sys_id&gt;98ccb3e99332351000583a4efaba10b2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:24:24&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=18ccb3e99332351000583a4efaba10ab"/&gt;&lt;sys_hub_step_ext_input action="delete_multiple" query="model=18ccb3e99332351000583a4efaba10ab"/&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=18ccb3e99332351000583a4efaba10ab"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=18ccb3e99332351000583a4efaba10ab"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_18ccb3e99332351000583a4efaba10ab"/&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="Get Currently Logged In User"&gt;4c78fbe19332351000583a4efaba1019&lt;/action&gt;&lt;cid&gt;69da85af-6beb-4257-a875-d4fe6ce4f3fd&lt;/cid&gt;&lt;error_handling_type&gt;1&lt;/error_handling_type&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;label&gt;Log step&lt;/label&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="Log"&gt;a03fea9bc712220061f553c6f09763b1&lt;/step_type&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:31:33&lt;/sys_created_on&gt;&lt;sys_id&gt;d96e376d9332351000583a4efaba10ae&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:31:33&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=d96e376d9332351000583a4efaba10ae"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=d96e376d9332351000583a4efaba10ae"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;log_message&lt;/field&gt;&lt;id&gt;d96e376d9332351000583a4efaba10ae&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:31:33&lt;/sys_created_on&gt;&lt;sys_id&gt;596e376d9332351000583a4efaba10b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:31:33&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1&lt;/table&gt;&lt;value&gt;{{step[d2a00e90-e2e3-4943-898a-94f6511abdb3].current_user}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d96e376d9332351000583a4efaba10ae"/&gt;&lt;sys_hub_step_ext_input action="delete_multiple" query="model=d96e376d9332351000583a4efaba10ae"/&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=d96e376d9332351000583a4efaba10ae"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=d96e376d9332351000583a4efaba10ae"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_d96e376d9332351000583a4efaba10ae"/&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="Get Currently Logged In User"&gt;4c78fbe19332351000583a4efaba1019&lt;/action&gt;&lt;cid&gt;d2a00e90-e2e3-4943-898a-94f6511abdb3&lt;/cid&gt;&lt;error_handling_type&gt;1&lt;/error_handling_type&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;label&gt;Get Current User ID&lt;/label&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="Script"&gt;106afb6647032200b4fad7527c9a71e7&lt;/step_type&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:09:03&lt;/sys_created_on&gt;&lt;sys_id&gt;ff397ba59332351000583a4efaba10e5&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:26:37&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=ff397ba59332351000583a4efaba10e5"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;ff397ba59332351000583a4efaba10e5&lt;/document_key&gt;&lt;order&gt;600&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:09:04&lt;/sys_created_on&gt;&lt;sys_id&gt;3f397ba59332351000583a4efaba10f5&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:26:37&lt;/sys_updated_on&gt;&lt;value&gt;(function execute(inputs, outputs) {&amp;#13;
+    outputs.current_user = gs.getUserID();&amp;#13;
+})(inputs, outputs);&amp;#13;
+&lt;/value&gt;&lt;variable display_value="Script"&gt;71aa7f6647032200b4fad7527c9a719b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;ff397ba59332351000583a4efaba10e5&lt;/document_key&gt;&lt;order&gt;400&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:09:04&lt;/sys_created_on&gt;&lt;sys_id&gt;7b397ba59332351000583a4efaba10f5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:09:04&lt;/sys_updated_on&gt;&lt;value&gt;35aa573fd7802200bdbaee5b5e610375&lt;/value&gt;&lt;variable display_value="MID Application"&gt;f5e56d79b3101300176b051a16a8dce4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_ff397ba59332351000583a4efaba10e5^id=ff397ba59332351000583a4efaba10e5"/&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=ff397ba59332351000583a4efaba10e5"/&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ff397ba59332351000583a4efaba10e5"/&gt;&lt;sys_hub_step_ext_input action="delete_multiple" query="model=ff397ba59332351000583a4efaba10e5"/&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=ff397ba59332351000583a4efaba10e5^sys_idNOT IN73397ba59332351000583a4efaba10ee"/&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0ae9cf75-e435-4dec-9dba-559609123ee6&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current_user&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Current User&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Get Current User ID"&gt;ff397ba59332351000583a4efaba10e5&lt;/model&gt;&lt;model_id&gt;ff397ba59332351000583a4efaba10e5&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_ff397ba59332351000583a4efaba10e5&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:09:04&lt;/sys_created_on&gt;&lt;sys_id&gt;73397ba59332351000583a4efaba10ee&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:09:04&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=ff397ba59332351000583a4efaba10e5"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_ff397ba59332351000583a4efaba10e5^sys_idNOT INf7397ba59332351000583a4efaba10f1"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current_user&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Current User&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_ff397ba59332351000583a4efaba10e5&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:09:04&lt;/sys_created_on&gt;&lt;sys_id&gt;f7397ba59332351000583a4efaba10f1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="PeopleForce Clone" source="x_1122522_pfc"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:09:04&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_hub_action_input action="delete_multiple" query="model=4c78fbe19332351000583a4efaba1019"/&gt;&lt;sys_hub_action_output action="delete_multiple" query="model=4c78fbe19332351000583a4efaba1019^sys_idNOT IN3b397ba59332351000583a4efaba10f8,7ada7f299332351000583a4efaba10aa,bada7f299332351000583a4efaba10a6"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=f09f2a89-e244-4842-bc4d-3ac635df9132&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current_user&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Current User&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Get Currently Logged In User"&gt;4c78fbe19332351000583a4efaba1019&lt;/model&gt;&lt;model_id&gt;4c78fbe19332351000583a4efaba1019&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:09:04&lt;/sys_created_on&gt;&lt;sys_id&gt;3b397ba59332351000583a4efaba10f8&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:05&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3b397ba59332351000583a4efaba10f8"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=3b397ba59332351000583a4efaba10f8^sys_idNOT INbb39bba59332351000583a4efaba100a"/&gt;&lt;sys_hub_input_scripts action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;input_name&gt;current_user&lt;/input_name&gt;&lt;instance&gt;3b397ba59332351000583a4efaba10f8&lt;/instance&gt;&lt;referenced_table&gt;sys_hub_action_output&lt;/referenced_table&gt;&lt;script&gt;{"current_user":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/"}}&lt;/script&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:09:04&lt;/sys_created_on&gt;&lt;sys_id&gt;bb39bba59332351000583a4efaba100a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:09:04&lt;/sys_updated_on&gt;&lt;/sys_hub_input_scripts&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f14952dd-2a28-4c0e-8cee-e1f3837fa6b8,visible_in_ui=false&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;true&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;__dont_treat_as_error__&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;label&gt;Don't Treat as Error&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Get Currently Logged In User"&gt;4c78fbe19332351000583a4efaba1019&lt;/model&gt;&lt;model_id&gt;4c78fbe19332351000583a4efaba1019&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;3&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:05&lt;/sys_created_on&gt;&lt;sys_id&gt;7ada7f299332351000583a4efaba10aa&lt;/sys_id&gt;&lt;sys_mod_count&gt;17&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:31:33&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7ada7f299332351000583a4efaba10aa"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=7ada7f299332351000583a4efaba10aa"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=359aebfc-42ff-4024-9462-28e63cc108f3&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;__action_status__&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Action Status&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;65000&lt;/max_length&gt;&lt;model display_value="Get Currently Logged In User"&gt;4c78fbe19332351000583a4efaba1019&lt;/model&gt;&lt;model_id&gt;4c78fbe19332351000583a4efaba1019&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:05&lt;/sys_created_on&gt;&lt;sys_id&gt;bada7f299332351000583a4efaba10a6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:05&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bada7f299332351000583a4efaba10a6"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=bada7f299332351000583a4efaba10a6"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=4c78fbe19332351000583a4efaba1019"/&gt;&lt;sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=4c78fbe19332351000583a4efaba1019^sys_idNOT IN3339bba59332351000583a4efaba100c"/&gt;&lt;sys_hub_action_status_metadata action="INSERT_OR_UPDATE"&gt;&lt;action_type_id display_value="Get Currently Logged In User"&gt;4c78fbe19332351000583a4efaba1019&lt;/action_type_id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:09:04&lt;/sys_created_on&gt;&lt;sys_id&gt;3339bba59332351000583a4efaba100c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:09:04&lt;/sys_updated_on&gt;&lt;/sys_hub_action_status_metadata&gt;&lt;sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=3339bba59332351000583a4efaba100c"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_4c78fbe19332351000583a4efaba1019"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_4c78fbe19332351000583a4efaba1019"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019^sys_idNOT INb2da7f299332351000583a4efaba10af,bada7f299332351000583a4efaba10a9,f3397ba59332351000583a4efaba10fc"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;__dont_treat_as_error__&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Don't Treat as Error&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:06&lt;/sys_created_on&gt;&lt;sys_id&gt;b2da7f299332351000583a4efaba10af&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="PeopleForce Clone" source="x_1122522_pfc"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:06&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;__action_status__&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Action Status&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:05&lt;/sys_created_on&gt;&lt;sys_id&gt;bada7f299332351000583a4efaba10a9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="PeopleForce Clone" source="x_1122522_pfc"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:05&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current_user&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Current User&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:09:04&lt;/sys_created_on&gt;&lt;sys_id&gt;f3397ba59332351000583a4efaba10fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="PeopleForce Clone" source="x_1122522_pfc"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:09:04&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_4c78fbe19332351000583a4efaba1019"/&gt;&lt;sys_hub_action_plan action="delete_multiple" query="action_id=4c78fbe19332351000583a4efaba1019^sys_idNOT IN8ceabf299332351000583a4efaba1086"/&gt;&lt;sys_hub_action_plan action="INSERT_OR_UPDATE"&gt;&lt;action_id display_value="Get Currently Logged In User"&gt;4c78fbe19332351000583a4efaba1019&lt;/action_id&gt;&lt;plan&gt;{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"8ceabf299332351000583a4efaba1086","name":"plan","plan_signature":null}}&lt;/plan&gt;&lt;snapshot&gt;7fdabf299332351000583a4efaba103d&lt;/snapshot&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8ceabf299332351000583a4efaba1086&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:11&lt;/sys_updated_on&gt;&lt;/sys_hub_action_plan&gt;&lt;sys_hub_action_type_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;action_status/&gt;&lt;action_template/&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;internal_name&gt;get_currently_logged_in_user&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"{{step[d2a00e90-e2e3-4943-898a-94f6511abdb3].current_user}}","label":"step➛Script step➛Current User","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"0ae9cf75-e435-4dec-9dba-559609123ee6"}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;Get Currently Logged In User&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;outputs/&gt;&lt;parent_action display_value="Get Currently Logged In User"&gt;4c78fbe19332351000583a4efaba1019&lt;/parent_action&gt;&lt;sys_class_name&gt;sys_hub_action_type_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;73dabf299332351000583a4efaba100d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:09&lt;/sys_updated_on&gt;&lt;system_level&gt;false&lt;/system_level&gt;&lt;type/&gt;&lt;/sys_hub_action_type_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=73dabf299332351000583a4efaba100d"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=73dabf299332351000583a4efaba100d"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_type_snapshot&lt;/document&gt;&lt;document_key&gt;73dabf299332351000583a4efaba100d&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:10&lt;/sys_created_on&gt;&lt;sys_id&gt;3bdabf299332351000583a4efaba103b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:10&lt;/sys_updated_on&gt;&lt;value&gt;{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}&lt;/value&gt;&lt;variable display_value="Action Status"&gt;7fdabf299332351000583a4efaba1022&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_type_snapshot&lt;/document&gt;&lt;document_key&gt;73dabf299332351000583a4efaba100d&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:10&lt;/sys_created_on&gt;&lt;sys_id&gt;77dabf299332351000583a4efaba103b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:10&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value="Don't Treat as Error"&gt;fbdabf299332351000583a4efaba1026&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=73dabf299332351000583a4efaba100d"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;current_user&lt;/field&gt;&lt;id&gt;73dabf299332351000583a4efaba100d&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:10&lt;/sys_created_on&gt;&lt;sys_id&gt;f3dabf299332351000583a4efaba103b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:10&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d&lt;/table&gt;&lt;value&gt;{{step[d2a00e90-e2e3-4943-898a-94f6511abdb3].current_user}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;__action_status__&lt;/field&gt;&lt;id&gt;73dabf299332351000583a4efaba100d&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:10&lt;/sys_created_on&gt;&lt;sys_id&gt;7bdabf299332351000583a4efaba102e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:10&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;__dont_treat_as_error__&lt;/field&gt;&lt;id&gt;73dabf299332351000583a4efaba100d&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:10&lt;/sys_created_on&gt;&lt;sys_id&gt;b7dabf299332351000583a4efaba102e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:10&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_step_instance action="delete_multiple" query="action=73dabf299332351000583a4efaba100d^sys_idNOT INb7dabf299332351000583a4efaba1011"/&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="Get Currently Logged In User"&gt;73dabf299332351000583a4efaba100d&lt;/action&gt;&lt;cid&gt;d2a00e90-e2e3-4943-898a-94f6511abdb3&lt;/cid&gt;&lt;error_handling_type&gt;1&lt;/error_handling_type&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;label&gt;Script step&lt;/label&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="Script"&gt;106afb6647032200b4fad7527c9a71e7&lt;/step_type&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:09&lt;/sys_created_on&gt;&lt;sys_id&gt;b7dabf299332351000583a4efaba1011&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:09&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=b7dabf299332351000583a4efaba1011"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;b7dabf299332351000583a4efaba1011&lt;/document_key&gt;&lt;order&gt;600&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:09&lt;/sys_created_on&gt;&lt;sys_id&gt;33dabf299332351000583a4efaba101c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:09&lt;/sys_updated_on&gt;&lt;value&gt;(function execute(inputs, outputs) {&amp;#13;
+    outputs.current_user = gs.getUserID();&amp;#13;
+})(inputs, outputs);&amp;#13;
+&lt;/value&gt;&lt;variable display_value="Script"&gt;71aa7f6647032200b4fad7527c9a719b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;b7dabf299332351000583a4efaba1011&lt;/document_key&gt;&lt;order&gt;400&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:09&lt;/sys_created_on&gt;&lt;sys_id&gt;7fdabf299332351000583a4efaba101b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:09&lt;/sys_updated_on&gt;&lt;value&gt;35aa573fd7802200bdbaee5b5e610375&lt;/value&gt;&lt;variable display_value="MID Application"&gt;f5e56d79b3101300176b051a16a8dce4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_b7dabf299332351000583a4efaba1011^id=b7dabf299332351000583a4efaba1011"/&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=b7dabf299332351000583a4efaba1011"/&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b7dabf299332351000583a4efaba1011"/&gt;&lt;sys_hub_step_ext_input action="delete_multiple" query="model=b7dabf299332351000583a4efaba1011"/&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=b7dabf299332351000583a4efaba1011^sys_idNOT IN37dabf299332351000583a4efaba1015"/&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0ae9cf75-e435-4dec-9dba-559609123ee6&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current_user&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Current User&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Script step"&gt;b7dabf299332351000583a4efaba1011&lt;/model&gt;&lt;model_id&gt;b7dabf299332351000583a4efaba1011&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_b7dabf299332351000583a4efaba1011&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:09&lt;/sys_created_on&gt;&lt;sys_id&gt;37dabf299332351000583a4efaba1015&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:09&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=b7dabf299332351000583a4efaba1011"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_b7dabf299332351000583a4efaba1011^sys_idNOT IN37dabf299332351000583a4efaba1018"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current_user&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Current User&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_b7dabf299332351000583a4efaba1011&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:09&lt;/sys_created_on&gt;&lt;sys_id&gt;37dabf299332351000583a4efaba1018&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="PeopleForce Clone" source="x_1122522_pfc"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:09&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_hub_action_input action="delete_multiple" query="model=73dabf299332351000583a4efaba100d"/&gt;&lt;sys_hub_action_output action="delete_multiple" query="model=73dabf299332351000583a4efaba100d^sys_idNOT IN3bdabf299332351000583a4efaba101e,7fdabf299332351000583a4efaba1022,fbdabf299332351000583a4efaba1026"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=f09f2a89-e244-4842-bc4d-3ac635df9132&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current_user&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Current User&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Get Currently Logged In User"&gt;73dabf299332351000583a4efaba100d&lt;/model&gt;&lt;model_id&gt;73dabf299332351000583a4efaba100d&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:09&lt;/sys_created_on&gt;&lt;sys_id&gt;3bdabf299332351000583a4efaba101e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:09&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3bdabf299332351000583a4efaba101e"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=3bdabf299332351000583a4efaba101e^sys_idNOT IN3bdabf299332351000583a4efaba102d"/&gt;&lt;sys_hub_input_scripts action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;input_name&gt;current_user&lt;/input_name&gt;&lt;instance&gt;3bdabf299332351000583a4efaba101e&lt;/instance&gt;&lt;referenced_table&gt;sys_hub_action_output&lt;/referenced_table&gt;&lt;script&gt;{"current_user":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/"}}&lt;/script&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:10&lt;/sys_created_on&gt;&lt;sys_id&gt;3bdabf299332351000583a4efaba102d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:10&lt;/sys_updated_on&gt;&lt;/sys_hub_input_scripts&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=359aebfc-42ff-4024-9462-28e63cc108f3&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;__action_status__&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Action Status&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;65000&lt;/max_length&gt;&lt;model display_value="Get Currently Logged In User"&gt;73dabf299332351000583a4efaba100d&lt;/model&gt;&lt;model_id&gt;73dabf299332351000583a4efaba100d&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:10&lt;/sys_created_on&gt;&lt;sys_id&gt;7fdabf299332351000583a4efaba1022&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:10&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7fdabf299332351000583a4efaba1022"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=7fdabf299332351000583a4efaba1022"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f14952dd-2a28-4c0e-8cee-e1f3837fa6b8,visible_in_ui=false&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;true&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;__dont_treat_as_error__&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;label&gt;Don't Treat as Error&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Get Currently Logged In User"&gt;73dabf299332351000583a4efaba100d&lt;/model&gt;&lt;model_id&gt;73dabf299332351000583a4efaba100d&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;3&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:10&lt;/sys_created_on&gt;&lt;sys_id&gt;fbdabf299332351000583a4efaba1026&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:10&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fbdabf299332351000583a4efaba1026"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=fbdabf299332351000583a4efaba1026"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=73dabf299332351000583a4efaba100d"/&gt;&lt;sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=73dabf299332351000583a4efaba100d^sys_idNOT INbbdabf299332351000583a4efaba103d"/&gt;&lt;sys_hub_action_status_metadata action="INSERT_OR_UPDATE"&gt;&lt;action_type_id display_value="Get Currently Logged In User"&gt;73dabf299332351000583a4efaba100d&lt;/action_type_id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:10&lt;/sys_created_on&gt;&lt;sys_id&gt;bbdabf299332351000583a4efaba103d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:10&lt;/sys_updated_on&gt;&lt;/sys_hub_action_status_metadata&gt;&lt;sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=bbdabf299332351000583a4efaba103d"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_73dabf299332351000583a4efaba100d"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_73dabf299332351000583a4efaba100d"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d^sys_idNOT IN37dabf299332351000583a4efaba102b,3fdabf299332351000583a4efaba1025,bfdabf299332351000583a4efaba1021"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;__dont_treat_as_error__&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Don't Treat as Error&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:10&lt;/sys_created_on&gt;&lt;sys_id&gt;37dabf299332351000583a4efaba102b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="PeopleForce Clone" source="x_1122522_pfc"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:10&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;__action_status__&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Action Status&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:10&lt;/sys_created_on&gt;&lt;sys_id&gt;3fdabf299332351000583a4efaba1025&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="PeopleForce Clone" source="x_1122522_pfc"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:10&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current_user&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Current User&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-29 11:16:10&lt;/sys_created_on&gt;&lt;sys_id&gt;bfdabf299332351000583a4efaba1021&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="PeopleForce Clone" source="x_1122522_pfc"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PeopleForce Clone"&gt;3625c10d93fe311000583a4efaba10c8&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-29 11:16:10&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_73dabf299332351000583a4efaba100d"/&gt;&lt;sys_hub_action_type_definition action="UPDATE"&gt;&lt;sys_id&gt;4c78fbe19332351000583a4efaba1019&lt;/sys_id&gt;&lt;latest_snapshot&gt;73dabf299332351000583a4efaba100d&lt;/latest_snapshot&gt;&lt;compiler_build&gt;glide-vancouver-07-06-2023__patch2-hotfix1-10-04-2023_10-06-2023_1235.zip&lt;/compiler_build&gt;&lt;/sys_hub_action_type_definition&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2124312095</payload_hash>
+        <record_name>Get Currently Logged In User</record_name>
+        <reverted_from/>
+        <source>b625c10d93fe311000583a4efaba10cc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 11:31:34</sys_created_on>
+        <sys_id>e96e776d9332351000583a4efaba1004</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c1ad940410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 11:31:34</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>e16e776d9d323510ab5580a0d48c1d04</update_guid>
+        <update_guid_history>e16e776d9d323510ab5580a0d48c1d04:-2124312095,752eff2d77323510cd9e01cfa1832995:-2088427765,a5cd3b2d41323510db7876450d7b0f14:-1451459748,994d7fe96632351053330465463e90fe:-2088427765,640d3be92f32351023e439ede953fca3:-367830961,6cccf3e9dc3235106a0ecab73f04e11e:-2088427765,0ceabf29273235109f469171f3fb2475:-2007755325,8fda7f29fc32351021bb9fdd36a67ac9:382567387,8c49bba56832351030f938fabc25d91c:-109465630,d878fb655f32351073b2d0d92d6cbb22:-479786273</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 12:43:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>33c748e6c438422d9f95a6477ec30311</sys_id>
+        <sys_metadata>4c78fbe19332351000583a4efaba1019</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Currently Logged In User</sys_name>
+        <sys_package display_value="PeopleForce Clone" source="x_1122522_pfc">3625c10d93fe311000583a4efaba10c8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PeopleForce Clone">3625c10d93fe311000583a4efaba10c8</sys_scope>
+        <sys_scope_delete display_value="">4e851d4930924010a8f22a919f711900</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_4c78fbe19332351000583a4efaba1019</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_4c78fbe19332351000583a4efaba1019">e96e776d9332351000583a4efaba1004</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 12:43:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
